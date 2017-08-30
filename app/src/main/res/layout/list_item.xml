@@ -13,6 +13,14 @@
         android:layout_height="56dp"
         android:background="@drawable/github_image_placeholder" />
 
+ <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
     <TextView
         android:id="@+id/username_tv"
         style="@style/Base.TextAppearance.AppCompat.Medium"
@@ -20,5 +28,7 @@
         android:layout_height="56dp"
         android:gravity="center|center_vertical"
         android:padding="8dp"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:textColor="@color/colorWhite"/>
+    </LinearLayout>
 </LinearLayout>
